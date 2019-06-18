@@ -35,7 +35,7 @@ public class CoresFragment extends Fragment {
         TextView corText = view.findViewById(R.id.cor_text);
 
         if(cor.equals("VERDE")){
-            frameLayout.setBackgroundColor(ContextCompat.getColor(getActivity(), R.color.colorPrimary));
+            frameLayout.setBackgroundColor(ContextCompat.getColor(getActivity(), R.color.verde));
             corText.setText("VERDE");
         }else if (cor.equals("ROSA")){
             frameLayout.setBackgroundColor(ContextCompat.getColor(getActivity(), R.color.colorAccent));
